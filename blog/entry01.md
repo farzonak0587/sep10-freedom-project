@@ -1,7 +1,7 @@
-# Entry 1
-##### X/X/XX
+# Entry 1: Biology 
+##### 10/7/24
 
-Text
+### Choosing a topic
 
 [Next](entry02.md)
 
