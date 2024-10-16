@@ -7,6 +7,7 @@ I decided to write on neurology within the field of biology. Growing up, I alway
 The websites that really got me interested were [Future of Neurology & Technology](https://www.neurology.org/doi/10.1212/WNL.0000000000012413) and [Neurologists and Technology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5765950/) They were the ones that drew my interest with their explanations of how technology has benefited patients and neurologists alike and how it might be used to enhance neurology teaching.
 
 ## Engineering Design Process
+This project has only recently begun, and my entire class and I haven't really gotten into it yet. The engineering design process is still in its first phases. At this point, all we have done is choose the subject of our interest and conduct some basic research on it. It is likely that at this point we will begin the actual research for our project. We have begun exploring into the various categories of technology related to the issue we selected.
 [Next](entry02.md)
 
 [Home](../README.md)
