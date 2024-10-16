@@ -6,9 +6,7 @@ I decided to write on neurology within the field of biology. Growing up, I alway
 
 The websites that really got me interested were [Future of Neurology & Technology](https://www.neurology.org/doi/10.1212/WNL.0000000000012413) and [Neurologists and Technology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5765950/) They were the ones that drew my interest with their explanations of how technology has benefited patients and neurologists alike and how it might be used to enhance neurology teaching.
 
-##Engineering Design Process  
-
-
+## Engineering Design Process
 [Next](entry02.md)
 
 [Home](../README.md)
