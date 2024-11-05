@@ -1,7 +1,14 @@
-# Entry 2
-##### X/X/XX
+# Entry 2: Biology 
+Farzona Khabibova 
+##### 11/5/24
 
-Text
+## COntent
+
+
+## Engineering Design Process
+
+## Skills 
+
 
 [Previous](entry01.md) | [Next](entry03.md)
 
