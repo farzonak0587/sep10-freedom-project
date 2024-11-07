@@ -1,4 +1,4 @@
-# Entry 2: Biology 
+# Entry 2: Software and Hardware in Biology 
 Farzona Khabibova 
 ##### 11/5/24
 
