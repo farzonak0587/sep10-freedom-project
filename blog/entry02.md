@@ -2,7 +2,7 @@
 Farzona Khabibova 
 ##### 11/5/24
 
-## COntent
+## Content
 
 
 ## Engineering Design Process
