@@ -5,7 +5,7 @@ Farzona Khabibova
 ## Content
 Since blog 1, we have been required to investigate our subject. I had to do research on the various hardware and software technologies they offer because my major was biology. I needed to locate technlogies that weren't well-known.We started by investigating biology's software technologies, which were basically apps and anything that was on the computer. I discovered a lot of apps, including the **"Microbiology App"** and the **"ixplain GCSE Biology"** app. I had to learn more about these programs and their functions. 
 
-I headed to Google and just searched for "biology apps/software" in order to locate the "ixplain GCSE Biology" and "Microbiology" apps. I had a lot of websites to pick from, so I browsed through them to see what they had to offer before making a decision.  [This](https://www.saintleo.edu/about/stories/blog/download-these-7-best-biology-apps-students) was the website that truly grabbed my interest. 
+I headed to Google and just searched for "biology apps/software" in order to locate the "ixplain GCSE Biology" and "Microbiology" apps. I had a lot of websites to pick from, so I browsed through them to see what they had to offer before making a decision.  [This was the website](https://www.saintleo.edu/about/stories/blog/download-these-7-best-biology-apps-students) that truly grabbed my interest, so i clicked on it. 
 
 
 
