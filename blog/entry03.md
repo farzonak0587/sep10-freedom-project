@@ -29,16 +29,13 @@ After generating these ideas, I focused on making sure the content was organized
 I broke down the content into two main sections: Software and Hardware in Biology. Each item had a brief description, making it easy to skim and understand what each app or hardware does. This organization helped users find what they’re looking for without confusion.
 
 #### Adding Links and Sources:
-To make the content more informative, I added links to each app and piece of hardware, with a "More info here" section or images that show what each device looks like. I double-checked these links to ensure they were accurate and directed to the right sources.
+To make the content more informative, I added links to each app and piece of hardware, with a "More info here" section or images that show what each device looks like. I double-checked these links to ensure they were accurate and directed to the right sources. For example, you can check out the full content on the [Final Content Page](https://docs.google.com/document/d/1ZA2PeJ4g9qTsPonNAOP5gqhc6yjXQF6QuSu2CQZkNUM/edit?tab=t.0).
 
 #### Simplifying the Language:
 Since biology can get pretty complicated, I made sure to keep the language simple and clear. I aimed to make the content easy for anyone to understand, whether they have a background in biology or not. I avoided over-explaining concepts and used easy-to-follow descriptions.
 
 #### Adding Cool Future Ideas:
 The “Future Innovations in Biology” section was particularly fun to write. I highlighted futuristic concepts like nanobots repairing DNA or smart tattoos tracking health, explaining how these innovations could work in the future and why they’re so exciting.
-
-#### Double-Checking Everything:
-Once everything was written, I went back to review and revise the content. I looked for any mistakes or confusing parts and made sure the information flowed logically from one section to the next. I also checked that the content was accurate and clear, which is important for making the website easy to understand and navigate.
 
 
 
