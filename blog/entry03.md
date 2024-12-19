@@ -42,6 +42,7 @@ I’m currently in the middle of the Engineering Design Process for my project, 
 
 ## Skills 
 Since working on this blog, I've picked up some important skills that have helped me better understand biology and technology. One skill I’ve really improved is **researching and finding good information**. I’ve learned how to search online and pick reliable sources to find the info I need. I also got better at **organizing the information**. I had to take complex topics like nanotechnology, AI, and bioengineering and break them down into easy-to-understand sections so anyone can get it. This helped me learn how to present information clearly. **Critical thinking** has been another skill I’ve worked on. I had to think about how all these new technologies could help solve real-world problems in biology, like curing diseases or improving healthcare. And I also got better at**simplifying complicated language**, which is important so everyone can understand what I’m talking about. All of these skills have made me a lot better at this project and will definitely help with other ones in the future.
+
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
