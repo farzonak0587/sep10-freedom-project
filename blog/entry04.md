@@ -1,7 +1,12 @@
-# Entry 4
-##### X/X/XX
+# Entry 4: Choosing a tool to learn 
+Farzona Khabibova 
+##### 2/2/25
 
-Text
+## Content
+
+
+## Skills 
+
 
 [Previous](entry03.md) | [Next](entry05.md)
 
