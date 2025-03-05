@@ -1,4 +1,4 @@
-# Entry 4: Choosing a Tool to learn 
+# Entry 4: Choosing a Tool to Learn 
 Farzona Khabibova 
 ##### 2/2/25
 
@@ -37,7 +37,7 @@ I also checked out a few lessons on [FreeCodeCamp](https://www.freecodecamp.org/
 ## Skills 
 While working on this project, I’ve learned a lot of new skills that have helped me get better at web design. One of the biggest things I’ve gotten better at is **choosing the right tools**. At first, I had to look through a bunch of options and figure out which ones would work best for me. I ended up picking tools like CSS Variables, Wow.js, and Flexbox. This helped me get better at deciding what would work for what I needed and what was best for where I was in my learning.
 
-**Tinkering and experimenting****** with the tools has also been a big skill I’ve worked on. When I chose Flexbox, I wasn’t totally sure what I was doing, but I just played around with the settings and saw how changing things affected the layout. It took a lot of trial and error, but that’s how I learned the basics. It wasn’t too hard, but it definitely wasn’t the easiest thing ever either, so it was a good middle ground for me to practice with.
+**Tinkering and experimenting** with the tools has also been a big skill I’ve worked on. When I chose Flexbox, I wasn’t totally sure what I was doing, but I just played around with the settings and saw how changing things affected the layout. It took a lot of trial and error, but that’s how I learned the basics. It wasn’t too hard, but it definitely wasn’t the easiest thing ever either, so it was a good middle ground for me to practice with.
 
 I also got better at using **interactive resources**. I spent a lot of time on sites like W3Schools where I could mess with the code live, and FreeCodeCamp had some lessons that helped me understand how to use Flexbox in real projects. Using these sites really helped me learn by doing, and I liked that I could go at my own pace.
 
