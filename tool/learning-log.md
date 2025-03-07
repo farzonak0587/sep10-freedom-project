@@ -1,17 +1,48 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: ** Flexbox **
 
 ---
 
-### X/X/XX:
-* Text
+### 3/6/25:
+#### `display: flex;`
+
+**Without `display: flex;`**
+![without random](tools/images/no-display-flex.png)
+
+**With `display: flex;`**
+![With random](tools/images/with-display-flex.png)
+
+When you add `display: flex;`, it allows you to use various flex properties to design a webpage that adjusts smoothly across different screen sizes.
+
+---
+
+#### Example on a Webpage:
+
+**Without `display: flex;`**
+![Tweet without `display:flex;`](tools/images/no-flex-tweet.png)
+
+**With `display: flex;`**
+![Tweet with `display:flex;`](tools/images/with-display-tweet.png)
+
+* https://www.freecodecamp.org/learn/responsive-web-design/css-flexbox
+
+
+
+
+
+
+
+
+
+
+
 
 ### X/X/XX:
 * Text
 
 
-<!-- 
+<!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
 * Challenges, a-ha moments, etc
