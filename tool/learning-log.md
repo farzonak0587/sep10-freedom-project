@@ -2,7 +2,7 @@
 
 ## Tool: **Flexbox**
 
----
+
 
 ### 3/6/25:
 ### `display: flex;`
@@ -35,6 +35,8 @@ When you add `display: flex;`, it allows you to use various flex properties to d
 #### Sources 
 * https://www.freecodecamp.org/learn/responsive-web-design/css-flexbox
 
+---
+
 
 ### 3/7/25:
 ### `display: direction;`
@@ -56,12 +58,14 @@ The `flex-direction` property is used to define the direction in which the flex 
   flex-direction: row; /* or column, row-reverse, column-reverse */
 }
 ```
+---
+
 ### 3/8/25:
 ### `justify-content` Property
 
 When you’re using Flexbox, sometimes the items inside the container don’t fill up all the space. You probably want to align and space out the items in a certain way, right? Well, the `justify-content` property helps you do just that!
 
-## Important Stuff to Know First
+#### Important Stuff to Know First
 
 Before jumping into how `justify-content` works, you need to know a couple of things:
 
@@ -71,7 +75,7 @@ Before jumping into how `justify-content` works, you need to know a couple of th
 
 Now that we know that, the `justify-content` property will control how the items are spaced out along the main axis.
 
-## The Different Ways You Can Use `justify-content`
+#### The Different Ways You Can Use `justify-content`
 
 Here are the most common values for `justify-content`:
 
