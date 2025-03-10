@@ -36,18 +36,26 @@ When you add `display: flex;`, it allows you to use various flex properties to d
 * https://www.freecodecamp.org/learn/responsive-web-design/css-flexbox
 
 
+### 3/9/25:
+### `display: direction;`
 
+The `flex-direction` property is used to define the direction in which the flex container's child elements (flex items) are laid out.
 
+#### Values
 
+- **`row`** (default): Aligns the children horizontally, from left to right.
+- **`column`**: Aligns the children vertically, from top to bottom.
+- **`row-reverse`**: Aligns the children horizontally, but in reverse order (right to left).
+- **`column-reverse`**: Aligns the children vertically, but in reverse order (bottom to top).
 
+#### Example
 
+```css
+.parent {
+  display: flex;
+  flex-direction: row; /* or column, row-reverse, column-reverse */
+}
 
-
-
-
-
-### X/X/XX:
-* Text
 
 
 <!--
