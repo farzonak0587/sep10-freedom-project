@@ -39,7 +39,7 @@ When you add `display: flex;`, it allows you to use various flex properties to d
 
 
 ### 3/7/25:
-### `display: direction;`
+#### `flex-direction` Property
 
 The `flex-direction` property is used to define the direction in which the flex container's child elements (flex items) are laid out.
 
@@ -107,6 +107,178 @@ Here are the most common values for `justify-content`:
   justify-content: center; /* Or flex-start, flex-end, space-between, space-around, space-evenly */
 }
 ```
+--- 
+
+### 3/10/25
+### `align-items` Property
+
+The `align-items` property is used to align flex items along the **cross axis** (perpendicular to the main axis). It's similar to the `justify-content` property, but instead of affecting the main axis, it works on the cross axis.
+
+#### Main Axis vs. Cross Axis
+
+- **Main Axis**: The direction in which flex items are laid out.
+  - For a `row` container: Horizontal (left to right).
+  - For a `column` container: Vertical (top to bottom).
+
+- **Cross Axis**: The opposite of the main axis.
+  - For a `row` container: Vertical (top to bottom).
+  - For a `column` container: Horizontal (left to right).
+
+#### Purpose of `align-items`
+Aligns items along the **cross axis**:
+
+- For **rows**: Aligns items vertically (top to bottom).
+- For **columns**: Aligns items horizontally (left to right).
+
+#### Values for `align-items`
+
+1. **`flex-start`**
+   - Aligns items to the start of the container.
+     - **Rows**: Aligns items to the top.
+     - **Columns**: Aligns items to the left.
+
+2. **`flex-end`**
+   - Aligns items to the end of the container.
+     - **Rows**: Aligns items to the bottom.
+     - **Columns**: Aligns items to the right.
+
+3. **`center`**
+   - Aligns items to the center of the container.
+     - **Rows**: Vertically centers items (equal space above and below).
+     - **Columns**: Horizontally centers items (equal space to left and right).
+
+4. **`stretch`**
+   - Stretches items to fill the container (default value if no `align-items` is specified).
+     - **Rows**: Stretches items top-to-bottom.
+     - **Columns**: Stretches items left-to-right.
+
+5. **`baseline`**
+   - Aligns items based on their baselines (for text alignment).
+     - Items align to the imaginary line where the text sits.
+
+---
+     
+### 3/11/25:
+### `flex-wrap` Property
+
+The `flex-wrap` property in CSS allows you to split a flex container into multiple rows (or columns) when there are too many items to fit in a single line. By default, all flex items will fit together in one line, but using `flex-wrap`, you can create multiple rows or columns as necessary.
+
+#### Direction of the Wrap
+The direction of the wrapping depends on the container's layout (row or column), and the wrapping behavior is determined by the size of the items and the container.
+
+#### Values for `flex-wrap`
+
+1. **`nowrap`** (default)
+   - This is the default setting and **does not wrap** items. All items will stay in one row or column, depending on the flex direction.
+
+2. **`wrap`**
+   - This wraps items onto multiple lines.
+     - If the flex container is in **rows**, it wraps items **from top to bottom**.
+     - If the flex container is in **columns**, it wraps items **from left to right**.
+
+3. **`wrap-reverse`**
+   - This wraps items onto multiple lines, but in the reverse direction.
+     - If the flex container is in **rows**, it wraps items **from bottom to top**.
+     - If the flex container is in **columns**, it wraps items **from right to left**.
+
+---
+
+  ### 3/12/25:
+### `flex-shrink` Property
+
+So far, all the Flexbox properties we've talked about apply to the **flex container** (the parent), but now we're going to talk about a property that applies to the **flex items** (the stuff inside the container).
+
+The `flex-shrink` property lets a flex item shrink if the container is too small. This happens when the container is smaller than the total width of all the items inside it.
+
+#### How It Works
+If the flex container is too narrow (or too short), the items inside it will shrink to fit. The `flex-shrink` value decides **how much** an item will shrink compared to the others.
+
+#### Values for `flex-shrink`
+
+- **Default Value**: `1` – This just means the item can shrink if needed.
+  
+- **Higher numbers**: The bigger the number, the more the item will shrink. For example:
+  - If one item has `flex-shrink: 1` and another has `flex-shrink: 3`, the item with `3` will shrink **3 times more** than the one with `1`.
+  
+---
+
+### 3/12/25:
+### `flex-grow` Property
+
+The opposite of `flex-shrink` is the `flex-grow` property. While `flex-shrink` controls how much an item shrinks when the container gets smaller, `flex-grow` controls how much an item **grows** when the container gets bigger.
+
+#### How It Works
+When the flex container has extra space (like if the container gets larger), the `flex-grow` property decides how much each item will grow to take up that extra space.
+
+Just like `flex-shrink`, the higher the number for `flex-grow`, the more that item will grow compared to the others.
+
+---
+
+### 3/13/25:
+### `flex-basis` Property
+
+The `flex-basis` property is all about setting the **initial size** of a flex item before any growing or shrinking happens with `flex-grow` or `flex-shrink`. It’s like telling CSS how big you want the item to be when it first appears in the container.
+
+#### How It Works
+- The value of `flex-basis` determines the starting size of the item.
+- Once the container has extra space or is too small, `flex-grow` or `flex-shrink` will adjust the item, but `flex-basis` sets the starting point.
+  
+You can use the same units as other size properties (like `px`, `em`, `%`, etc.). If you use `auto`, CSS will size the item based on its content.
+
+---
+
+### 3/14/25:
+### `flex` Property (Shortcut)
+
+There’s a shortcut in CSS that lets you set the `flex-grow`, `flex-shrink`, and `flex-basis` properties all at once using the `flex` property. This makes it quicker to apply multiple flex properties without writing them separately.
+
+#### How It Works
+The `flex` property combines the following three properties into one:
+- `flex-grow`
+- `flex-shrink`
+- `flex-basis`
+
+The syntax is:
+```css
+flex: flex-grow flex-shrink flex-basis;
+```
+---
+
+### 3/15/25:
+### `order` Property
+
+The `order` property allows you to control the **order** in which flex items appear inside a flex container. By default, the items will appear in the same order they are written in the HTML code, but with the `order` property, you can change that.
+
+#### How It Works
+The `order` property takes **numbers** as values. Items with a lower number will appear before items with a higher number. You can even use **negative numbers** to make items appear first.
+
+#### Example
+
+```css
+.item1 {
+  order: 2; /* This item will appear after items with order: 1 */
+}
+
+
+.item2 {
+  order: 1; /* This item will appear first */
+}
+
+.item3 {
+  order: -1; /* This item will appear first, even before order: 1 */
+}
+```
+--- 
+
+### 3/16/25:
+### `align-self` Property
+
+The `align-self` property is used to **adjust the alignment of individual flex items**. This is different from the `align-items` property, which sets the alignment for all items in the container. If you want to change the alignment of just one item without affecting the others, `align-self` is the way to go!
+
+#### How It Works
+`align-self` allows you to override the alignment set by `align-items` for a specific flex item. It works the same way as `align-items`, but it only affects the item it’s applied to, not the whole container.
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
@@ -114,3 +286,5 @@ Here are the most common values for `justify-content`:
 * Questions you still have
 * What you're going to try next
 -->
+
+
