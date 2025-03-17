@@ -32,9 +32,6 @@ When you add `display: flex;`, it allows you to use various flex properties to d
 
 ![image](https://github.com/user-attachments/assets/5b76931a-bb80-4bf6-9993-7540de9c3610)
 
-#### Sources 
-* https://www.freecodecamp.org/learn/responsive-web-design/css-flexbox
-
 ---
 
 
@@ -270,7 +267,7 @@ The `order` property takes **numbers** as values. Items with a lower number will
 ```
 --- 
 
-### 3/16/25:
+### 3/17/25:
 ### `align-self` Property
 
 The `align-self` property is used to **adjust the alignment of individual flex items**. This is different from the `align-items` property, which sets the alignment for all items in the container. If you want to change the alignment of just one item without affecting the others, `align-self` is the way to go!
@@ -278,8 +275,33 @@ The `align-self` property is used to **adjust the alignment of individual flex i
 #### How It Works
 `align-self` allows you to override the alignment set by `align-items` for a specific flex item. It works the same way as `align-items`, but it only affects the item it’s applied to, not the whole container.
 
+---
+
+### 3/18/2025
+### Flexbox - `gap` Property
+
+The `gap` property in Flexbox is used to control the space between items inside a flex container. It’s super simple and helps you avoid using margins on each individual item.
+
+## What does it do?
+
+- **`gap`** adds space between items in a flex container, making your layout cleaner and easier to manage than using margins on each item.
+
+## Syntax:
+```css
+.container {
+  display: flex;
+  gap: 10px;  /* Adds 10px space between all items */
+}
+```
+
 
 <!--
+
+https://www.freecodecamp.org/learn/responsive-web-design/css-flexbox
+https://www.youtube.com/watch?v=wsTv9y931o8
+
+
+
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
 * Challenges, a-ha moments, etc
