@@ -293,7 +293,82 @@ The `gap` property in Flexbox is used to control the space between items inside 
   gap: 10px;  /* Adds 10px space between all items */
 }
 ```
+## 3/24/2025:
+### `flex-flow` Property
 
+The `flex-flow` property is a shorthand that combines the `flex-direction` and `flex-wrap` properties. This makes it easy to set both of these properties at once, streamlining your code and making it more readable.
+
+In this example, the `flex-flow` property is setting the direction of the items to be horizontally laid out (`row`) and allowing them to wrap (`wrap`) when the container is too small.
+
+**Learned from:**  
+- [MDN Web Docs on Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow)  
+- [Flexbox Tutorial on YouTube](https://www.youtube.com/watch?v=fYq5PXgSsbE)
+
+---
+
+## 3/25/2025:
+### `justify-items` in Flexbox
+
+While `justify-content` controls how space is distributed along the main axis, `justify-items` controls the alignment of items within their individual grid cells (more relevant in Grid layouts but can apply in Flexbox as well). This property helps you define how individual flex items are aligned within their container.
+
+However, in Flexbox, `justify-items` does not have the same impact as in Grid layouts, but you may find it useful for aligning individual flex items inside grid-based systems.
+
+**Learned from:**  
+- [CSS-Tricks on Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
+- [Flexbox with Grid vs Flex](https://www.youtube.com/watch?v=1Nz1gZvlmNA)
+
+---
+
+## 3/26/2025:
+### `align-items` vs `align-content`
+
+While both `align-items` and `align-content` control the alignment of flex items along the cross axis, they do so in different ways.
+
+- **`align-items`** affects the alignment of flex items within a single line of items.
+- **`align-content`** affects the alignment of multiple lines of items when wrapping is used (`flex-wrap`).
+
+In this case, the items on a single line are vertically centered (`align-items`), and the lines of items themselves are spaced out (`align-content`).
+
+**Learned from:**  
+- [MDN Web Docs on `align-items`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items)  
+- [CSS Flexbox Alignment Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+---
+
+## 3/27/2025:
+### `align-items` with `flex-wrap`
+
+When you use `flex-wrap`, the `align-items` property controls how the individual items are aligned along the cross axis, while `align-content` will affect the space between multiple lines.
+
+**Learned from:**  
+- [MDN Web Docs on `align-items`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items)  
+- [Flexbox Tutorial on YouTube](https://www.youtube.com/watch?v=Y0kj9F9dr40)
+
+---
+
+## 3/28/2025:
+### `flex` in a Row vs Column Layout
+
+Flexbox behavior can change depending on whether you are working with rows or columns. Items in a `row` layout behave differently from items in a `column` layout when it comes to alignment, wrapping, and distribution of space.
+
+In a row layout, `justify-content: space-between` will distribute the space between items horizontally, whereas in a column layout, the same property will distribute the space vertically.
+
+**Learned from:**  
+- [CSS-Tricks on Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
+- [Flexbox Layout Guide](https://www.youtube.com/watch?v=1Nz1gZvlmNA)
+
+---
+
+## 3/29/2025:
+### `flex-grow` with Negative Space
+
+The `flex-grow` property determines how flex items grow relative to the container. If the container has negative space (less space than required for all items), the `flex-grow` property won’t work. Items will shrink instead (using `flex-shrink`), depending on the container's size.
+
+**Learned from:**  
+- [MDN Web Docs on `flex-grow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow)  
+- [YouTube Tutorial on Flexbox](https://www.youtube.com/watch?v=1Nz1gZvlmNA)
+
+---
 
 <!--
 
