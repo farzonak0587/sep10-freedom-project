@@ -12,7 +12,7 @@
 ![image](https://github.com/user-attachments/assets/bd7e2f41-a7b2-4c1e-80f3-c5b82220630f)
 
 
-**With** `display: flex;`  
+**With** `display: flex;`
 
 ![image](https://github.com/user-attachments/assets/0cdbebbe-7ace-4d70-ad7d-a398c2472e0b)
 
@@ -66,7 +66,7 @@ When you’re using Flexbox, sometimes the items inside the container don’t fi
 
 Before jumping into how `justify-content` works, you need to know a couple of things:
 
-- **Main Axis**: This is the direction your items are laid out in. 
+- **Main Axis**: This is the direction your items are laid out in.
   - If you set the container to `row`, the main axis is **horizontal** (left to right).
   - If you set it to `column`, the main axis is **vertical** (top to bottom).
 
@@ -104,7 +104,7 @@ Here are the most common values for `justify-content`:
   justify-content: center; /* Or flex-start, flex-end, space-between, space-around, space-evenly */
 }
 ```
---- 
+---
 
 ### 3/10/25
 ### `align-items` Property
@@ -154,7 +154,7 @@ Aligns items along the **cross axis**:
      - Items align to the imaginary line where the text sits.
 
 ---
-     
+
 ### 3/11/25:
 ### `flex-wrap` Property
 
@@ -193,10 +193,10 @@ If the flex container is too narrow (or too short), the items inside it will shr
 #### Values for `flex-shrink`
 
 - **Default Value**: `1` – This just means the item can shrink if needed.
-  
+
 - **Higher numbers**: The bigger the number, the more the item will shrink. For example:
   - If one item has `flex-shrink: 1` and another has `flex-shrink: 3`, the item with `3` will shrink **3 times more** than the one with `1`.
-  
+
 ---
 
 ### 3/12/25:
@@ -219,7 +219,7 @@ The `flex-basis` property is all about setting the **initial size** of a flex it
 #### How It Works
 - The value of `flex-basis` determines the starting size of the item.
 - Once the container has extra space or is too small, `flex-grow` or `flex-shrink` will adjust the item, but `flex-basis` sets the starting point.
-  
+
 You can use the same units as other size properties (like `px`, `em`, `%`, etc.). If you use `auto`, CSS will size the item based on its content.
 
 ---
@@ -265,7 +265,7 @@ The `order` property takes **numbers** as values. Items with a lower number will
   order: -1; /* This item will appear first, even before order: 1 */
 }
 ```
---- 
+---
 
 ### 3/17/25:
 ### `align-self` Property
@@ -293,7 +293,7 @@ The `gap` property in Flexbox is used to control the space between items inside 
   gap: 10px;  /* Adds 10px space between all items */
 }
 ```
-
+### 3/24/2025
 
 <!--
 
