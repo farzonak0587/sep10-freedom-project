@@ -62,7 +62,11 @@ decriptions of the apps
 
 #### Beyond MVP
 
-* Task
+* fix minor erros like spacing/alignment etc
+* try to add another component
+* make it look neater
+* add a rating section
+
 
 
 

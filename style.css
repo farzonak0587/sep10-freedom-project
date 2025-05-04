@@ -26,7 +26,6 @@ body {
 }
 
 
-
 /* Hero Section */
 .hero-section {
   background-image: url('https://cdn12.picryl.com/photo/2016/12/31/dna-string-biology-science-technology-e2fd15-1024.jpg');
@@ -60,6 +59,7 @@ body {
   line-height: 1.8;
   color: #F5F5F5;
 }
+
 
 /* Navbar */
 nav a {
@@ -189,4 +189,206 @@ a {
 a:hover {
   color: #0288D1;
   text-decoration: underline;
+}
+
+/* Responsive Layout for Tablets and Mobile */
+@media (max-width: 1024px) {  #software .container-top,
+  #software .container-second-row {
+    grid-template-columns: 1fr;
+  }
+}
+  #software .container-top .software-box,
+  #software .container-second-row .software-box,
+  #software .container-third-row .software-box {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #software .container-third-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+#hardware {
+  background: linear-gradient(135deg, #FFFFFF, #B0BEC5); /* From white to a greyish tone */
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+#hardware h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4rem; /* Match the size of the software section title */
+  color: #0288D1;
+  margin-bottom: 3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* Container Row Layout */
+.container-hardware-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+/* Hardware Box */
+.hardware-box {
+  background-color: #f8f9fa;
+  border: 2px solid #B3E5FC;
+  border-radius: 12px;
+  width: 48%; /* Set to 48% to fit 2 items per row */
+  margin: 1%;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center content inside the box */
+  align-items: center; /* Horizontally center content inside the box */
+}
+
+.hardware-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.hardware-box img {
+  width: 50%; /* Make sure image takes up the full width of the box */
+  height: 300px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensure the image covers the entire area without distortion */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-top: 20px;
+
+}
+
+/* Text content under the image */
+.hardware-text {
+  padding: 1.5rem;
+}
+
+.hardware-text h3 {
+  margin-top: 0;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #0288D1;
+  font-family: 'Inter', sans-serif;
+}
+
+.hardware-text p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #000;
+}
+
+.hardware-text ul {
+  text-align: left;
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+  color: #757575;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  /* Adjust for mobile devices: one box per row */
+  .hardware-box {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+
+#images {
+  background: linear-gradient(135deg, #CFD8DC, #B3E5FC); /* Greyish to light blue */
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.carousel {
+  max-width: 1500px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.carousel img {
+  object-fit: cover;
+  height: auto ;
+}
+
+#future-innovations {
+  background: linear-gradient(135deg, #CFD8DC, #B3E5FC);
+  padding: 3rem 1rem;
+}
+
+#future-innovations .text-center h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4rem;
+  color: #0288D1;
+  margin-bottom: 1rem;
+}
+
+#future-innovations .text-center p {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.accordion-button {
+  font-size: 1.3rem;
+  padding: 1.2rem;
+}
+
+.accordion-body {
+  font-size: 1.1rem;
+  padding: 1.1rem;
+}
+
+.accordion-item {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2.accordion-header {
+  font-size: 1.4rem;
+}
+
+@media (min-width: 992px) {
+  .accordion .accordion-button,
+  .accordion .accordion-body {
+    font-size: 1.2rem;
+  }
+}
+
+#conclusion {
+  background: linear-gradient(to bottom right, #d0e9ff, #ffffff);
+  padding: 80px 30px; /* Increased padding for better spacing */
+  border-top: 5px solid #007bff; /* Thicker border for emphasis */
+  color: #333;
+  margin-top: 40px; /* Adjusted margin for a cleaner layout */
+  text-align: center; /* Center text for a balanced look */
+}
+
+#conclusion h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem; /* Increased font size for better impact */
+  color: #2c3e50;
+  margin-bottom: 30px; /* Increased bottom margin for spacing */
+}
+
+#conclusion p {
+  font-size: 1.1rem;
+  max-width: 900px; /* Wider max width for a better text block */
+  margin: auto;
+  line-height: 1.7;
+  text-align: justify; /* Justified text for better readability */
+  color: #555; /* Slightly lighter text color for contrast */
 }

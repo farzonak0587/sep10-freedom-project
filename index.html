@@ -10,19 +10,29 @@
 
 </head>
 <body>
-  <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand mb-0 h1" href="#">Biology + Tech</a>
-      <div>
-        <a class="btn btn-link text-white" href="#software">Software</a>
-        <a class="btn btn-link text-white" href="#hardware">Hardware</a>
-        <a class="btn btn-link text-white" href="#future">Future Innovations</a>
+      <!-- Hamburger Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible Content -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link text-white" href="#Hero">Home</a>
+          <a class="nav-link text-white" href="#software">Software</a>
+          <a class="nav-link text-white" href="#hardware">Hardware</a>
+          <a class="nav-link text-white" href="#future-innovations">Future Innovations</a>
+        </div>
       </div>
     </div>
   </nav>
 
-  <header class="hero-section">
-    <div class="hero-overlay">
+  <header class="hero-section" >
+    <div class="hero-overlay" id="Hero" >
       <h1>Biology in the Tech Age</h1>
       <p>Biology is all around us and has always been a huge part of science. But in recent years, technology has totally changed the way we learn about it and use it in real life. From apps that make studying fun to cool machines that help doctors see inside our bodies, there are so many tech tools that make biology more exciting and easier to understand. In this guide, we’re going to check out some awesome biology apps and hardware that are changing the game for students, scientists, and healthcare workers alike.</p>
     </div>
@@ -128,6 +138,210 @@
         </div>
       </div>
     </section>
+
+    <section id="hardware">
+      <div class="container">
+        <h2>Hardware</h2>
+      </div>
+
+      <!-- First Row: 2 Images and Text -->
+      <div class="container-hardware-row">
+        <!-- Fluoroscopy -->
+        <div class="hardware-box">
+          <img src="https://www.fda.gov/files/image_of_a_fluoroscopy_machine.jpg" alt="Fluoroscopy">
+          <div class="hardware-text">
+            <h3>Fluoroscopy</h3>
+            <p><strong>Purpose:</strong> Uses X-ray bursts to provide real-time imaging of organs and tissues in motion.</p>
+            <p><strong>Features:</strong></p>
+            <ul>
+              <li>Unlike traditional X-rays, fluoroscopy gives a continuous, video-like image.</li>
+              <li>Useful for cardiovascular, digestive, urinary, and musculoskeletal systems.</li>
+              <li>Great for diagnosing conditions involving fluid flow or movement inside the body.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Microfluidics -->
+        <div class="hardware-box">
+          <img src="https://cdn.the-scientist.com/assets/articleNo/71667/hImg/52223/microfluidics-biology-s-liquid-revolution-1800x720-x.webp" alt="Microfluidics">
+          <div class="hardware-text">
+            <h3>Microfluidics</h3>
+            <p><strong>Purpose:</strong> Manipulates tiny amounts of fluid at the microscopic scale.</p>
+            <p><strong>Features:</strong></p>
+            <ul>
+              <li>Used for precise experiments in biology, chemistry, and medicine.</li>
+              <li>Allows single-cell manipulation and analysis.</li>
+              <li>Helps with drug delivery, nanoparticle prep, and cell testing.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Row: 2 Images and Text -->
+      <div class="container-hardware-row">
+        <!-- PCR Machine -->
+        <div class="hardware-box">
+          <img src="https://thumbs.dreamstime.com/z/web-204184219.jpg" alt="PCR Machine">
+          <div class="hardware-text">
+            <h3>PCR Machine (Thermal Cycler)</h3>
+            <p><strong>Purpose:</strong> Amplifies DNA by making numerous copies of specific sequences.</p>
+            <p><strong>Features:</strong></p>
+            <ul>
+              <li>Uses heat/cooling cycles for DNA replication (PCR).</li>
+              <li>Crucial for DNA testing, genetic research, and forensics.</li>
+              <li>Essential for molecular biology, though complex and costly.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Gel Electrophoresis -->
+        <div class="hardware-box">
+          <img src="https://modernbio.com/wp-content/uploads/2023/11/Gel-Electrophoresis.jpg" alt="Gel Electrophoresis">
+          <div class="hardware-text">
+            <h3>Gel Electrophoresis</h3>
+            <p><strong>Purpose:</strong> Separates DNA or proteins by size for analysis.</p>
+            <p><strong>Features:</strong></p>
+            <ul>
+              <li>Small molecules move faster through the gel.</li>
+              <li>Used in genetic research, forensics, and diagnostics.</li>
+              <li>Powerful tool for studying genes and proteins.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="images">
+      <div id="hardwareCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://cdn2.picryl.com/photo/2014/12/10/medical-care-9bc2a2-1024.jpg" class="d-block w-100" alt="Medical Care">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.etftrends.com/wp-content/uploads/2021/06/The-Era-of-Biotech-How-Biology-Became-Technology.jpg" class="d-block w-100" alt="Medical Device 1">
+          </div>
+          <div class="carousel-item">
+            <img src="https://hms.harvard.edu/sites/default/files/media/850DNA-brain-GettyImages-940458246.jpg" class="d-block w-100" alt="Medical Device 2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.prod.website-files.com/65c37e1a9189104bf8d071be/66faedc74ffa833d72a30331_8.png" class="d-block w-100" alt="Futuristic Device">
+          </div>
+          <div class="carousel-item">
+            <img src="https://t4.ftcdn.net/jpg/02/35/71/13/360_F_235711378_x8BsTR14c7Iu9myWbXVBk2DHf7dHsdgg.jpg" class="d-block w-100" alt="Future Medical Device Art">
+          </div>
+        </div>
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#hardwareCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#hardwareCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+  <section id="future-innovations">
+    <!-- Title and Paragraph -->
+    <div class="text-center mb-4">
+      <h2>Possible Future Inventions</h2>
+      <p>These inventions don’t exist yet, but they represent concepts that could potentially be useful in the future of biology and technology. They could revolutionize healthcare, improve treatments, and allow us to better understand the human body.</p>
+    </div>
+
+<!-- Side-by-Side Accordions -->
+<div class="container">
+  <div class="row g-4">
+
+    <!-- Accordion 1: Nanobot-Driven DNA Repair -->
+    <div class="col-md-4">
+      <div class="accordion" id="accordionNanobot">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+              Nanobot-Driven DNA Repair
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionNanobot">
+            <div class="accordion-body">
+              <h5>What it Could Be:</h5>
+              <p>Tiny robots capable of repairing broken DNA inside cells.</p>
+
+              <h5>How it Could Help:</h5>
+              <p>Acts as an automatic repair system within your body, fixing genetic errors before they lead to diseases.</p>
+
+              <h5>How it Could Be Removed:</h5>
+              <p>Nanobots could disappear after completing their tasks, or be removed using magnets or chemicals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion 2: Organ-on-a-Chip -->
+    <div class="col-md-4">
+      <div class="accordion" id="accordionChip">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+              Organ-on-a-Chip
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionChip">
+            <div class="accordion-body">
+              <h5>What it Could Be:</h5>
+              <p>A small chip that mimics the function of human organs like the heart, lungs, and immune system.</p>
+
+              <h5>How it Could Help:</h5>
+              <p>Useful for testing new medicines without using animals. Helps doctors understand treatments before trying them on you.</p>
+
+              <h5>How it Could Be Removed:</h5>
+              <p>Can be thrown away after use or cleaned and reused.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion 3: Smart Tattoos That Monitor Your Health -->
+    <div class="col-md-4">
+      <div class="accordion" id="accordionTattoo">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+              Smart Tattoos That Monitor Your Health
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionTattoo">
+            <div class="accordion-body">
+              <h5>What it Could Be:</h5>
+              <p>Tattoos with sensors to track heart rate, blood sugar, and stress levels.</p>
+
+              <h5>How it Could Help:</h5>
+              <p>Real-time health updates without bulky devices. Tattoos could change color if something's wrong.</p>
+
+              <h5>How it Could Be Removed:</h5>
+              <p>Removed with a laser or chemical process without damaging skin.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <div id="conclusion" class="mt-5">
+      <h2>Conclusion</h2>
+      <p class="lead">
+        As we’ve explored, the connection between biology and technology is stronger than ever. From interactive learning apps and advanced medical machines to futuristic inventions like DNA-repairing nanobots, the possibilities are endless. These tools and ideas not only make biology more exciting but also push science and healthcare forward in ways that were once only imagined. As technology continues to grow, so will our ability to understand and improve life through biology.
+      </p>
+    </div>
+
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
