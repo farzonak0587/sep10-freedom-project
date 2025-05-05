@@ -11,8 +11,8 @@ body {
 }
 
 .navbar a:hover {
-  background-color: rgba(0, 0, 0, 0.8); /* Darker hover effect */
-  color: #fff; /* Text color stays white when hovering */
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: #fff; 
 }
 
 .navbar {
@@ -213,21 +213,21 @@ a:hover {
 
 
 #hardware {
-  background: linear-gradient(135deg, #FFFFFF, #B0BEC5); /* From white to a greyish tone */
+  background: linear-gradient(135deg, #FFFFFF, #B0BEC5); 
   padding: 5rem 1rem;
   text-align: center;
 }
 
 #hardware h2 {
   font-family: 'Bebas Neue', cursive;
-  font-size: 4rem; /* Match the size of the software section title */
+  font-size: 4rem; 
   color: #0288D1;
   margin-bottom: 3rem;
   text-align: center;
   padding: 2rem 0;
 }
 
-/* Container Row Layout */
+
 .container-hardware-row {
   display: flex;
   flex-wrap: wrap;
@@ -235,7 +235,7 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-/* Hardware Box */
+
 .hardware-box {
   background-color: #f8f9fa;
   border: 2px solid #B3E5FC;
@@ -249,8 +249,8 @@ a:hover {
   transition: transform 0.3s ease;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Vertically center content inside the box */
-  align-items: center; /* Horizontally center content inside the box */
+  justify-content: center; 
+  align-items: center; 
 }
 
 .hardware-box:hover {
@@ -258,18 +258,18 @@ a:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Image Styling */
+
 .hardware-box img {
-  width: 50%; /* Make sure image takes up the full width of the box */
-  height: 300px; /* Fixed height for consistency */
-  object-fit: cover; /* Ensure the image covers the entire area without distortion */
+  width: 50%; 
+  height: 300px; 
+  object-fit: cover; 
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   margin-top: 20px;
 
 }
 
-/* Text content under the image */
+
 .hardware-text {
   padding: 1.5rem;
 }
@@ -295,9 +295,8 @@ a:hover {
   color: #757575;
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
-  /* Adjust for mobile devices: one box per row */
   .hardware-box {
     width: 100%;
     margin: 1rem 0;
@@ -306,7 +305,7 @@ a:hover {
 
 
 #images {
-  background: linear-gradient(135deg, #CFD8DC, #B3E5FC); /* Greyish to light blue */
+  background: linear-gradient(135deg, #CFD8DC, #B3E5FC); 
   padding: 5rem 1rem;
   text-align: center;
 }
@@ -370,25 +369,25 @@ h2.accordion-header {
 
 #conclusion {
   background: linear-gradient(to bottom right, #d0e9ff, #ffffff);
-  padding: 80px 30px; /* Increased padding for better spacing */
-  border-top: 5px solid #007bff; /* Thicker border for emphasis */
+  padding: 80px 30px; 
+  border-top: 5px solid #007bff; 
   color: #333;
-  margin-top: 40px; /* Adjusted margin for a cleaner layout */
-  text-align: center; /* Center text for a balanced look */
+  margin-top: 40px; 
+  text-align: center; 
 }
 
 #conclusion h2 {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 3rem; /* Increased font size for better impact */
+  font-size: 3rem; 
   color: #2c3e50;
-  margin-bottom: 30px; /* Increased bottom margin for spacing */
+  margin-bottom: 30px; 
 }
 
 #conclusion p {
   font-size: 1.1rem;
-  max-width: 900px; /* Wider max width for a better text block */
+  max-width: 900px; 
   margin: auto;
   line-height: 1.7;
-  text-align: justify; /* Justified text for better readability */
-  color: #555; /* Slightly lighter text color for contrast */
+  text-align: justify; 
+  color: #555; 
 }
