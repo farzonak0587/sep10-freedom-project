@@ -88,7 +88,7 @@ decriptions of the apps
 | Name | Glows | Grows |
 | -------- | ------- | ------- |
 | Jolee  | I like the little animation when you hover on the cards  | For the cararousel, have you considered making the images proportional so the cararousel could look smoother when it transitions from one image to another? Have you considered adding images for the software tools so it's easier to visualize if possible?
-|   |   |
+| Jintian  | I like how responsive your website is with no errors and also the details you've put into the text.  | Have you ever considered making a dark background popping up as well for the navbar when you click the three dash lines thing?
 |   |   |
 |   |   |
 |   |   |
