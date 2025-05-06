@@ -89,8 +89,8 @@ decriptions of the apps
 | -------- | ------- | ------- |
 | Jolee  | I like the little animation when you hover on the cards  | For the cararousel, have you considered making the images proportional so the cararousel could look smoother when it transitions from one image to another? Have you considered adding images for the software tools so it's easier to visualize if possible?
 | Jintian  | I like how responsive your website is with no errors and also the details you've put into the text.  | Have you ever considered making a dark background popping up as well for the navbar when you click the three dash lines thing?
-|   |   |
-|   |   |
+| Gabriel  |  I like how everything looks polished and how everything is credited in its own card with its features | When you scroll down with the menu enabled, its backgorund disapears and it makes it hard to see so you should put a background on it. Would it be possible to autoclose it after you press a button too?
+| Derek | I like the background on the top of the page and how the start looks. | You should fix the navbar when it is a smaller screen size because when you click on it, the text goes out of the bar. |
 |   |   |
 |   |   |
 
