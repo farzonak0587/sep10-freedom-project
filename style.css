@@ -321,8 +321,14 @@ a:hover {
 
 .carousel img {
   object-fit: cover;
-  height: auto ;
+  height: 400px ;
 }
+
+.carousel-item img {
+  height: 800px; /* adjust as needed */
+  object-fit: cover;
+}
+
 
 #future-innovations {
   background: linear-gradient(135deg, #CFD8DC, #B3E5FC);
@@ -391,4 +397,29 @@ h2.accordion-header {
   line-height: 1.7;
   text-align: justify; /* Justified text for better readability */
   color: #555; /* Slightly lighter text color for contrast */
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: rgba(33, 37, 41, 0.95); /* Dark background */
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .navbar-nav .nav-link {
+    color: white; /* Makes sure links are visible */
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    max-height: 70vh;
+    overflow-y: auto;
+    background-color: #ffffff; /* match your site bg */
+    padding: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 1rem;
+  }
 }
