@@ -50,7 +50,7 @@
 
 
 /* Home Section */
-.horo-section {
+.home-section {
   background-image: url('https://cdn12.picryl.com/photo/2016/12/31/dna-string-biology-science-technology-e2fd15-1024.jpg');
   background-size: cover;
   background-position: center;
@@ -64,21 +64,21 @@
   margin-top: 3rem;
 }
 
-.hero-overlay {
+.home-overlay {
   background: rgba(0, 0, 0, 0.6);
   padding: 3rem;
   border-radius: 1rem;
   max-width: 1000px;
 }
 
-.hero-overlay h1 {
+.home-overlay h1 {
   font-family: 'Bebas Neue', cursive;
   font-size: 5rem;
   margin: 1.5rem;
   color: #B3E5FC;
 }
 
-.hero-overlay p {
+.home-overlay p {
   font-size: 1.3rem;
   line-height: 1.8;
   color: #F5F5F5;
@@ -91,32 +91,32 @@
     padding: 2rem; 
   }
 
-  .hero-overlay {
+  .home-overlay {
     padding: 2rem; 
   }
 
-  .hero-overlay h1 {
+  .home-overlay h1 {
     font-size: 3rem; 
     margin: 1rem 0; 
   }
 
-  .hero-overlay p {
+  .home-overlay p {
     font-size: 1.1rem; 
     margin-top: 1rem; 
   }
 }
 
 @media (max-width: 480px) {
-  .hero-section {
+  .home-section {
     height: 50vh; 
     padding: 1.5rem; 
   }
 
-  .hero-overlay h1 {
+  .home-overlay h1 {
     font-size: 2.5rem;
   }
 
-  .hero-overlay p {
+  .home-overlay p {
     font-size: 1rem;
   }
 }
@@ -502,24 +502,24 @@ h2.accordion-header {
     margin: 0 0.5rem;
   }
 
-  .hero-section {
+  .home-section {
     height: 60vh;
     padding: 1rem;
     background-position: center;
     background-size: cover;
   }
 
-  .hero-overlay {
+  .home-overlay {
     padding: 1.5rem;
     max-width: 95%;
   }
 
-  .hero-overlay h1 {
+  .home-overlay h1 {
     font-size: 2.2rem;
     margin: 0.5rem 0;
   }
 
-  .hero-overlay p {
+  .home-overlay p {
     font-size: 1rem;
     line-height: 1.5;
   }
@@ -536,41 +536,41 @@ h2.accordion-header {
     margin: 0 0.4rem;
   }
 
-  .hero-section {
+  .home-section {
     height: 50vh;
     padding: 1rem;
     background-position: center;
     background-size: cover;
   }
 
-  .hero-overlay {
+  .home-overlay {
     padding: 1rem;
     border-radius: 0.8rem;
   }
 
-  .hero-overlay h1 {
+  .home-overlay h1 {
     font-size: 2rem;
   }
 
-  .hero-overlay p {
+  .home-overlay p {
     font-size: 0.9rem;
   }
 }
 
 @media (max-width: 768px) {
-  .hero-overlay {
+  .home-overlay {
     padding: 1.5rem;
     max-width: 95%;
     max-height: 95%;
     overflow-y: auto;
   }
 
-  .hero-overlay h1 {
+  .home-overlay h1 {
     font-size: 4rem;
     margin: 0.5rem 0;
   }
 
-  .hero-overlay p {
+  .home-overlay p {
     font-size: 1rem;
     line-height: 1.5;
     margin: 0.5rem 0;
@@ -578,19 +578,19 @@ h2.accordion-header {
 }
 
 @media (max-width: 480px) {
-  .hero-overlay {
+  .home-overlay {
     padding: 1rem;
     max-width: 90%;
     max-height: 70%;
     overflow-y: auto;
   }
 
-  .hero-overlay h1 {
+  .home-overlay h1 {
     font-size: 4rem;
     margin: 0.4rem 0;
   }
 
-  .hero-overlay p {
+  .home-overlay p {
     font-size: 0.95rem;
     line-height: 1.4;
     margin: 0.4rem 0;
