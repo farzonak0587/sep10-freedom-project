@@ -8,10 +8,15 @@ For our Freedom Project, we had to do two different presentations to show off wh
 
 The second presentation was our **in-class presentation**, which was more detailed and a lot longer. We had to make a Google Slides deck and present it to the whole class for about 3 to 10 minutes. This one had to include a strong hook at the beginning to grab everyone’s attention, the challenges we faced while creating our Freedom Project, our final product, and the takeaways we had from the experience. It was definitely more nerve-wracking since everyone in class was watching, but it gave us a chance to reflect on how far we’d come and everything we learned along the way.
 
+[Product](https://farzonak0587.github.io/sep10-freedom-project/)
 
-### Challenges and Takeaways
+[Presentation](https://docs.google.com/presentation/d/1U1RFnBBrbpEVTOZ44tDfg2cE4N7QJzuRpEvQt9VFiyk/edit?slide=id.p#slide=id.p)
 
----
+[Elevator Pitch ](https://classroom.google.com/c/NzQ3MjM0MzQwMzg2/sa/Nzg1MTE1Njg3OTA1/details)
+
+
+# Challenges and Takeaways
+
 
 ###  Elevator Pitch Challenges
 
