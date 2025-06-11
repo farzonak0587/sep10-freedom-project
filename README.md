@@ -6,7 +6,9 @@ I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering P
 
 For my project, I chose the topic of **Biology**. 
 
-I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **Flexbox** in order to help me make my website.
+What I made was a website that shows how biology and technology connect with each other. I researched and included real software and hardware inventions in the medical field that are widely used today. Then, I used creativity to come up with possible future inventions that could exist one day. My goal was to show how combining tech and biology can help a lot of people around the world, especially with health issues that affect so many lives.
+
+I used HTML, CSS, Bootstrap, and Github. I also chose to independently learn **Flexbox** in order to help me make my website.
 
 ## Links
 
