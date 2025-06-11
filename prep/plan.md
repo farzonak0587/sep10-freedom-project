@@ -76,12 +76,20 @@ decriptions of the apps
 
 #### Beyond MVP
 
-* fix minor erros like spacing/alignment etc
-* try to add another component
-* make it look neater
-* add a rating section
+* Make the carousel images the same size so it doesn’t look jumpy when switching between slides.
+
+* Make sure the navbar has a background when you open the menu and scroll—right now it disappears and gets hard to see.
+
+* Fix the navbar on smaller screens—right now the text kinda goes out of the menu when it's open.
+
+* Make the navbar close automatically after clicking one of the links in it.
 
 
+#### Last-minute revisions
+
+* Fix the margin of the home page so it doesnt overlap with the navbar
+* Add a scroll icon so people know to scroll to see the rest of the context
+* fix opening and closing tags of divs, containers, paragraphs, spans etc. 
 
 
 
